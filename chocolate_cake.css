@@ -1,0 +1,161 @@
+* {
+    overflow: auto;
+}
+
+body {
+    background-color: #8BA1BB;
+    font-family: "Comic Sans MS";
+
+}
+
+div.category {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+p.category {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.content {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 30px;
+    padding-top: 0px;
+    min-width: 450px;
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+    overflow: visible;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.center {
+    text-align: center;
+}
+
+div.separator {
+    background-color: black;
+    height: 1px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.image_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 65%;
+    min-height: 200px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+div.image_table {
+    position: relative
+}
+
+table.info {
+    position: absolute; 
+    bottom: 0; 
+    /* left: 17.5%; */
+    width: 100%; 
+    color: white; 
+    background-color: #6c829dc0; 
+    height: 20%; 
+    margin-left: auto;
+}
+
+/* pra alinhar pelo centro o texto da tabela, pode fazer: */
+
+table.info td {
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+table.info th {
+    vertical-align: bottom;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+div.col {
+    width: 45%;
+    float: left;
+    margin-top: 20px;
+}
+
+div.col h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6c8290;
+    padding-bottom: 5px;
+}
+
+div.col1 {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+div.col2 {
+    margin-left: 5%;
+}
+
+div.ingredients_style p {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding: 8px 0px;
+}
+
+table.instructions_style p.number{
+    background-color: #6c8290;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+
+table.instructions_style td.instructions_step {
+    padding-left: 10px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+table.instructions_style td {
+    vertical-align: top;
+}
+
+table.instructions_style tr {
+    height: 40px;
+}
